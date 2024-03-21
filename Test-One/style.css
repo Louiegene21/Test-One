@@ -3,23 +3,39 @@
     padding: 0;
 }
 
+
 .container-fluid {
-    background-color: transparent;
+    background-color: #efefef;
     height: 75px;
 }
 
 .navbar-brand {
     width: 110px;
     font-weight: 600;
+    margin-left: 10px;
+    color: #0f5028 !important;
 }
 
-.jumbotron-background {
-    background-color: aquamarine;
-}
 
 .nav-link {
+    font-size: 17px !important;
     font-weight: 600;
     margin-left: 15px;
+    color: #304D30 !important;
+}
+
+.dropdown-item {
+    color: #304D30 !important;
+}
+
+.btn-login {
+    text-decoration: none;
+    background: #0f5028;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    color: white;
+
 }
 
 .wrapper {
@@ -74,11 +90,11 @@
     width: 100%;
     position: absolute;
     display: block;
-    top: 39%;
+    top: 65%;
     z-index: -1;
     opacity: 0.6;
-
 }
+
 
 @media only screen and (max-width:990px) {
     .wave-image {
@@ -90,3 +106,4 @@
         margin-right: 10px;
     }
 }
+
